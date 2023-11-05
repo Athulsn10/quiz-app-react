@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Confetti from "react-confetti";
+import HTMLFlipBook from "react-pageflip";
 
 function QuizApp() {
   const [quizData, setQuizData] = useState([]);
@@ -71,46 +72,81 @@ function QuizApp() {
   };
 
   return (
-    <div className="container-fluid d-flex justify-content-center" style={{ backgroundColor: '#A8D1E7', height: '100vh' }}>
+    <div
+      className="container-fluid d-flex justify-content-center"
+      style={{ backgroundColor: "#F7D6E0", height: "100vh" }}
+    >
       {!quizComplete && quizData.length > 0 && (
-        <div className=" mt-5 px-3 py-3 rounded shadow" style={{ backgroundColor: '#B3DBD8', width: '700px', height: 'fit-content' }}>
-          <div style={{ height: '90px' }}>
-            <h3>Q. {quizData[currentQuestionIndex].question}</h3>
+        <div
+          className=" mt-5 px-3 py-3 rounded shadow"
+          style={{
+            backgroundColor: "#EFF7F6",
+            width: "700px",
+            height: "fit-content",
+          }}
+        >
+          <div className="mb-2" style={{ height: "90px" }}>
+            <h3 className="mb-2">Q. {quizData[currentQuestionIndex].question}</h3>
           </div>
-          <hr/>
-          {quizData[currentQuestionIndex].options.map((option, index) => (
-            <div className="pt-1" key={index}>
-              <button
-                className="btn fs-5 w-100 py-4"
-                style={{
-                  backgroundColor: selectedAnswer === index ? 'white' : 'initial',
-                  border: "none",
-                  textAlign: 'left'
-                }}
-                onClick={() => {
-                  setSelectedAnswer(index);
-                  checkAnswer(index);
-                }}
-              >
-                {option}
-              </button>
-            </div>
-          ))}
+          <hr />
+          <ol type="a">
+            {quizData[currentQuestionIndex].options.map((option, index) => (
+              <li key={index}>
+                <button
+                  className="btn fs-5 w-100 py-4"
+                  style={{
+                    backgroundColor:
+                      selectedAnswer === index ? "white" : "initial",
+                    border: "none",
+                    textAlign: "left",
+                  }}
+                  onClick={() => {
+                    setSelectedAnswer(index);
+                    checkAnswer(index);
+                  }}
+                >
+                  {option}
+                </button>
+              </li>
+            ))}
+          </ol>
+
           <div className="d-flex justify-content-end mt-3">
-            <button className="btn btn-primary" onClick={nextQuestion}>
-              {currentQuestionIndex < quizData.length - 1 ? 'Next Question' : 'Finish Quiz'}
+            <button
+              style={{}}
+              className="btn px-3 py-3 d-flex align-items-center"
+              onClick={nextQuestion}
+            >
+              <i
+                className="fa-solid fa-caret-right fs-4 pe-2"
+                style={{ color: "#000000" }}
+              ></i>
+              {currentQuestionIndex < quizData.length - 1
+                ? "Next Question"
+                : "Finish Quiz"}
             </button>
           </div>
-          <p className="ms-3 fw-bold fs-4">{currentQuestionIndex + 1}/{quizData.length}</p>
+          <p className="ms-3 fw-bold fs-4">
+            {currentQuestionIndex + 1}/{quizData.length}
+          </p>
         </div>
       )}
       {quizComplete && (
-        <div className=" d-flex align-items-center justify-content-center mt-5 px-3 py-3 rounded shadow" style={{ backgroundColor: '#B3DBD8', width: '700px', height: '550px' }}>
+        <div
+          className=" d-flex align-items-center justify-content-center mt-5 px-3 py-3 rounded shadow"
+          style={{
+            backgroundColor: "#B3DBD8",
+            width: "700px",
+            height: "550px",
+          }}
+        >
           <div>
             <h3 className="text-center">Quiz Complete!</h3>
-            <div className="d-flex justify-content-center fs-4 fw-bold"><p>Your score: {correctAnswers} out of 20</p></div>
+            <div className="d-flex justify-content-center fs-4 fw-bold">
+              <p>Your score: {correctAnswers} out of 20</p>
+            </div>
             <div className="d-flex justify-content-center">
-              <button className="btn btn-primary" onClick={restartQuiz}>
+              <button className="btn px-3 py-3" onClick={restartQuiz}>
                 Restart Quiz
               </button>
             </div>
