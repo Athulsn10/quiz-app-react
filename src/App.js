@@ -17,13 +17,13 @@ function QuizApp() {
     }
   }
 
-  // Fetch the quiz data from the JSON file using Axios
+  //quiz data from the JSON file using Axios
   useEffect(() => {
     axios
       .get("/quiz.json")
       .then((response) => {
         const questions = response.data.questions;
-        shuffleArray(questions); // Shuffle all questions
+        shuffleArray(questions); // Shuffle  questions
         const selectedQuestions = questions.slice(0, 20); // Select the first 20 questions
         setQuizData(selectedQuestions);
       })
