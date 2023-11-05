@@ -1,0 +1,754 @@
+{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["Madrid", "Berlin", "Paris", "London"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "options": ["Saturn", "Earth", "Venus", "Jupiter"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["Mark Twain", "Charles Dickens", "William Shakespeare", "Jane Austen"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Ag", "Go", "Au", "Ge"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+            "options": ["Hydrogen", "Oxygen", "Carbon dioxide", "Nitrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which year did Christopher Columbus discover America?",
+            "options": ["1812", "1620", "1776", "1492"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Michelangelo", "Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the largest mammal on Earth?",
+            "options": ["Giraffe", "Hippopotamus", "African Elephant", "Blue Whale"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the symbol for the element oxygen in the periodic table?",
+            "options": ["Oxg", "Ox", "Oy", "O"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known as the father of modern physics?",
+            "options": ["Nikola Tesla", "Isaac Newton", "Galileo Galilei", "Albert Einstein"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which planet is often referred to as the 'Red Planet'?",
+            "options": ["Saturn", "Mars", "Venus", "Jupiter"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Lungs", "Brain", "Heart", "Skin"],
+            "correct_option": 3
+        },
+        {
+            "question": "In which country is the Taj Mahal located?",
+            "options": ["Brazil", "Egypt", "China", "India"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is the author of 'Pride and Prejudice'?",
+            "options": ["F. Scott Fitzgerald", "Emily Brontë", "Jane Austen", "Charles Dickens"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "options": ["NaCl", "CO2", "H2O", "O2"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+            "options": ["Rosa Parks", "Queen Elizabeth I", "Marie Curie", "Amelia Earhart"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "options": ["Arabian Desert", "Gobi Desert", "Atacama Desert", "Sahara Desert"],
+            "correct_option": 3
+        },
+        {
+            "question": "What gas makes up the majority of Earth's atmosphere?",
+            "options": ["Helium", "Carbon dioxide", "Nitrogen", "Oxygen"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which country is known as the 'Land of the Rising Sun'?",
+            "options": ["Thailand", "South Korea", "China", "Japan"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known for developing the theory of relativity?",
+            "options": ["Galileo Galilei", "Isaac Newton", "Stephen Hawking", "Albert Einstein"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "options": ["Io", "Fe", "In", "Ir"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who wrote the novel '1984'?",
+            "options": ["Jane Austen", "F. Scott Fitzgerald", "Charles Dickens", "George Orwell"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which gas do plants release during respiration?",
+            "options": ["Hydrogen", "Oxygen", "Carbon dioxide", "Nitrogen"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest organ inside the human body?",
+            "options": ["Heart", "Kidney", "Stomach", "Liver"],
+            "correct_option": 3
+        },
+        {
+            "question": "In which country is the Great Wall of China located?",
+            "options": ["India", "Japan", "Australia", "China"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known as the 'Queen of Pop'?",
+            "options": ["Adele", "Beyoncé", "Madonna", "Lady Gaga"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the chemical symbol for silver?",
+            "options": ["Sv", "Si", "Ag", "S"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the smallest prime number?",
+            "options": ["3", "1", "0", "2"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who painted 'Starry Night'?",
+            "options": ["Leonardo da Vinci", "Claude Monet", "Pablo Picasso", "Vincent van Gogh"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Arctic Ocean", "Indian Ocean", "Atlantic Ocean", "Pacific Ocean"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is the author of 'To Kill a Mockingbird'?",
+            "options": ["Mark Twain", "Charles Dickens", "Harper Lee", "J.K. Rowling"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the chemical symbol for helium?",
+            "options": ["H", "Hy", "Hl", "He"],
+            "correct_option": 3
+        },
+        {
+            "question": "In which city is the Eiffel Tower located?",
+            "options": ["Barcelona", "Rome", "Paris", "London"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the main component of the Earth's core?",
+            "options": ["Silver", "Gold", "Diamond", "Iron"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which gas is responsible for the Earth's ozone layer?",
+            "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Ozone"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+            "options": ["Queen Elizabeth I", "Rosa Parks", "Marie Curie", "Amelia Earhart"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the largest desert in the United States?",
+            "options": ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Sonoran Desert"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which planet is known as the 'Evening Star'?",
+            "options": ["Saturn", "Mars", "Jupiter", "Venus"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who was the first human to travel in space?",
+            "options": ["Alan Shepard", "Neil Armstrong", "John Glenn", "Yuri Gagarin"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for carbon?",
+            "options": ["C", "Co", "Ca", "Cr"],
+            "correct_option": 0
+        },
+        {
+            "question": "In Greek mythology, who was the king of the gods?",
+            "options": ["Apollo", "Hades", "Poseidon", "Zeus"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which continent is the driest and has the largest hot desert?",
+            "options": ["Africa", "South America", "Asia", "Australia"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote the play 'Hamlet'?",
+            "options": ["George Orwell", "Fyodor Dostoevsky", "Leo Tolstoy", "William Shakespeare"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for potassium?",
+            "options": ["Pl", "P", "Po", "K"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which gas is essential for respiration and is transported by red blood cells?",
+            "options": ["Oxygen", "Carbon dioxide", "Helium", "Nitrogen"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the largest planet in our solar system by mass?",
+            "options": ["Jupiter", "Earth", "Venus", "Mercury"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who wrote the novel 'Moby-Dick'?",
+            "options": ["Charles Dickens", "Mark Twain", "Jules Verne", "Herman Melville"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for lead?",
+            "options": ["Pr", "Pl", "Pb", "Ld"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which country is the city of Venice located?",
+            "options": ["Greece", "Spain", "France", "Italy"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known as the 'Wizard of Menlo Park'?",
+            "options": ["Benjamin Franklin", "Alexander Graham Bell", "Nikola Tesla", "Thomas Edison"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which gas is responsible for the green color of plants' leaves?",
+            "options": ["Nitrogen", "Oxygen", "Chlorophyll", "Carbon dioxide"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields?",
+            "options": ["Jane Goodall", "Rosalind Franklin", "Barbara McClintock", "Marie Curie"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for sodium?",
+            "options": ["Sd", "So", "Sn", "Na"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known for the theory of evolution by natural selection?",
+            "options": ["Sigmund Freud", "Isaac Newton", "Albert Einstein", "Charles Darwin"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for nitrogen?",
+            "options": ["Nt", "Nr", "Ni", "N"],
+            "correct_option": 3
+        },
+        {
+            "question": "In which country is the city of Rio de Janeiro located?",
+            "options": ["Colombia", "Peru", "Argentina", "Brazil"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the main function of red blood cells in the human body?",
+            "options": ["Filtering waste", "Carrying oxygen", "Digesting food", "Storing energy"],
+            "correct_option": 1
+        },
+        {
+            "question": "Which planet is known for its beautiful rings?",
+            "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is the author of 'The Catcher in the Rye'?",
+            "options": ["John Steinbeck", "Ernest Hemingway", "F. Scott Fitzgerald", "J.D. Salinger"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the chemical symbol for copper?",
+            "options": ["Cp", "Cr", "Co", "Cu"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere by volume?",
+            "options": ["Hydrogen", "Carbon dioxide", "Oxygen", "Nitrogen"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known for developing the theory of relativity?",
+            "options": [" Isaac Newton", " Albert Einstein", " Stephen Hawking", " Galileo Galilei"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "options": [" Fe", " Ir", " In", " Io"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who wrote the novel '1984'?",
+            "options": [" George Orwell", " F. Scott Fitzgerald", " Charles Dickens", " Jane Austen"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas do plants release during respiration?",
+            "options": [" Oxygen", " Carbon dioxide", " Nitrogen", " Hydrogen"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the largest organ inside the human body?",
+            "options": [" Liver", " Kidney", " Stomach", " Heart"],
+            "correct_option": 0
+        },
+        {
+            "question": "In which country is the Great Wall of China located?",
+            "options": [" Japan", " China", " India", " Australia"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is known as the 'Queen of Pop'?",
+            "options": [" Beyoncé", " Madonna", " Lady Gaga", " Adele"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for silver?",
+            "options": [" Si", " S", " Sv", " Ag"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the smallest prime number?",
+            "options": [" 0", " 1", " 2", " 3"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who painted 'Starry Night'?",
+            "options": [" Leonardo da Vinci", " Pablo Picasso", " Vincent van Gogh", " Claude Monet"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": [" Atlantic Ocean", " Indian Ocean", " Arctic Ocean", " Pacific Ocean"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is the author of 'To Kill a Mockingbird'?",
+            "options": [" Harper Lee", " J.K. Rowling", " Charles Dickens", " Mark Twain"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for helium?",
+            "options": [" Hl", " H", " He", " Hy"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which city is the Eiffel Tower located?",
+            "options": [" London", " Rome", " Paris", " Barcelona"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the main component of the Earth's core?",
+            "options": [" Iron", " Gold", " Diamond", " Silver"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas is responsible for the Earth's ozone layer?",
+            "options": [" Oxygen", " Carbon dioxide", " Ozone", " Nitrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+            "options": [" Amelia Earhart", " Marie Curie", " Rosa Parks", " Queen Elizabeth I"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the largest desert in the United States?",
+            "options": [" Sahara Desert", " Gobi Desert", " Atacama Desert", " Sonoran Desert"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which planet is known as the 'Evening Star'?",
+            "options": [" Venus", " Mars", " Jupiter", " Saturn"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who was the first human to travel in space?",
+            "options": [" Yuri Gagarin", " Neil Armstrong", " John Glenn", " Alan Shepard"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for carbon?",
+            "options": [" Co", " Ca", " Cr", " C"],
+            "correct_option": 3
+        },
+        {
+            "question": "In Greek mythology, who was the king of the gods?",
+            "options": [" Poseidon", " Hades", " Zeus", " Apollo"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which continent is the driest and has the largest hot desert?",
+            "options": [" Africa", " Asia", " South America", " Australia"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote the play 'Hamlet'?",
+            "options": [" William Shakespeare", " Leo Tolstoy", " Fyodor Dostoevsky", " George Orwell"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for potassium?",
+            "options": [" P", " Po", " K", " Pl"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which gas is essential for respiration and is transported by red blood cells?",
+            "options": [" Carbon dioxide", " Oxygen", " Nitrogen", " Helium"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest planet in our solar system by mass?",
+            "options": [" Mercury", " Venus", " Earth", " Jupiter"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote the novel 'Moby-Dick'?",
+            "options": [" Herman Melville", " Jules Verne", " Mark Twain", " Charles Dickens"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for lead?",
+            "options": [" Ld", " Pl", " Pb", " Pr"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which country is the city of Venice located?",
+            "options": [" France", " Italy", " Spain", " Greece"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is known as the 'Wizard of Menlo Park'?",
+            "options": [" Thomas Edison", " Nikola Tesla", " Alexander Graham Bell", " Benjamin Franklin"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas is responsible for the green color of plants' leaves?",
+            "options": [" Oxygen", " Carbon dioxide", " Chlorophyll", " Nitrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which year did Christopher Columbus discover America?",
+            "options": ["1492", "1620", "1776", "1812"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the largest mammal on Earth?",
+            "options": ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the symbol for the element oxygen in the periodic table?",
+            "options": ["O", "Ox", "Oy", "Oxg"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who is known as the father of modern physics?",
+            "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which planet is often referred to as the 'Red Planet'?",
+            "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Brain", "Skin", "Lungs"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which country is the Taj Mahal located?",
+            "options": ["India", "China", "Egypt", "Brazil"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who is the author of 'Pride and Prejudice'?",
+            "options": ["Charles Dickens", "Jane Austen", "F. Scott Fitzgerald", "Emily Brontë"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "options": ["H2O", "CO2", "NaCl", "O2"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+            "options": ["Marie Curie", "Amelia Earhart", "Rosa Parks", "Queen Elizabeth I"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "options": ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Arabian Desert"],
+            "correct_option": 0
+        },
+        {
+            "question": "What gas makes up the majority of Earth's atmosphere?",
+            "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which country is known as the 'Land of the Rising Sun'?",
+            "options": ["China", "Japan", "South Korea", "Thailand"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is known for developing the theory of relativity?",
+            "options": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Galileo Galilei"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "options": ["Fe", "Ir", "In", "Io"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who wrote the novel '1984'?",
+            "options": ["George Orwell", "F. Scott Fitzgerald", "Charles Dickens", "Jane Austen"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas do plants release during respiration?",
+            "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the largest organ inside the human body?",
+            "options": ["Liver", "Kidney", "Stomach", "Heart"],
+            "correct_option": 0
+        },
+        {
+            "question": "In which country is the Great Wall of China located?",
+            "options": ["Japan", "China", "India", "Australia"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is known as the 'Queen of Pop'?",
+            "options": ["Beyoncé", "Madonna", "Lady Gaga", "Adele"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for silver?",
+            "options": ["Si", "S", "Sv", "Ag"],
+            "correct_option": 3
+        },
+        {
+            "question": "What is the smallest prime number?",
+            "options": ["0", "1", "2", "3"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who painted 'Starry Night'?",
+            "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is the author of 'To Kill a Mockingbird'?",
+            "options": ["Harper Lee", "J.K. Rowling", "Charles Dickens", "Mark Twain"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for helium?",
+            "options": ["Hl", "H", "He", "Hy"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which city is the Eiffel Tower located?",
+            "options": ["London", "Rome", "Paris", "Barcelona"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the main component of the Earth's core?",
+            "options": ["Iron", "Gold", "Diamond", "Silver"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas is responsible for the Earth's ozone layer?",
+            "options": ["Oxygen", "Carbon dioxide", "Ozone", "Nitrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+            "options": ["Amelia Earhart", "Marie Curie", "Rosa Parks", "Queen Elizabeth I"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the largest desert in the United States?",
+            "options": ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Sonoran Desert"],
+            "correct_option": 3
+        },
+        {
+            "question": "Which planet is known as the 'Evening Star'?",
+            "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+            "correct_option": 0
+        },
+        {
+            "question": "Who was the first human to travel in space?",
+            "options": ["Yuri Gagarin", "Neil Armstrong", "John Glenn", "Alan Shepard"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for carbon?",
+            "options": ["Co", "Ca", "Cr", "C"],
+            "correct_option": 3
+        },
+        {
+            "question": "In Greek mythology, who was the king of the gods?",
+            "options": ["Poseidon", "Hades", "Zeus", "Apollo"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which continent is the driest and has the largest hot desert?",
+            "options": ["Africa", "Asia", "South America", "Australia"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote the play 'Hamlet'?",
+            "options": ["William Shakespeare", "Leo Tolstoy", "Fyodor Dostoevsky", "George Orwell"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for potassium?",
+            "options": ["P", "Po", "K", "Pl"],
+            "correct_option": 2
+        },
+        {
+            "question": "Which gas is essential for respiration and is transported by red blood cells?",
+            "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the largest planet in our solar system by mass?",
+            "options": ["Mercury", "Venus", "Earth", "Jupiter"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who wrote the novel 'Moby-Dick'?",
+            "options": ["Herman Melville", "Jules Verne", "Mark Twain", "Charles Dickens"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for lead?",
+            "options": ["Ld", "Pl", "Pb", "Pr"],
+            "correct_option": 2
+        },
+        {
+            "question": "In which country is the city of Venice located?",
+            "options": ["France", "Italy", "Spain", "Greece"],
+            "correct_option": 1
+        },
+        {
+            "question": "Who is known as the 'Wizard of Menlo Park'?",
+            "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Benjamin Franklin"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas is responsible for the green color of plants' leaves?",
+            "options": ["Oxygen", "Carbon dioxide", "Chlorophyll", "Nitrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields?",
+            "options": ["Rosalind Franklin", "Marie Curie", "Barbara McClintock", "Jane Goodall"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the chemical symbol for sodium?",
+            "options": ["So", "Sn", "Sd", "Na"],
+            "correct_option": 3
+        },
+        {
+            "question": "Who is known for the theory of evolution by natural selection?",
+            "options": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Sigmund Freud"],
+            "correct_option": 2
+        },
+        {
+            "question": "What is the chemical symbol for nitrogen?",
+            "options": ["Nr", "Ni", "Nt", "N"],
+            "correct_option": 3
+        },
+        {
+            "question": "In which country is the city of Rio de Janeiro located?",
+            "options": ["Argentina", "Brazil", "Colombia", "Peru"],
+            "correct_option": 1
+        },
+        {
+            "question": "What is the main function of red blood cells in the human body?",
+            "options": ["Carrying oxygen", "Digesting food", "Filtering waste", "Storing energy"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which planet is known for its beautiful rings?",
+            "options": ["Uranus", "Neptune", "Saturn", "Jupiter"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who is the author of 'The Catcher in the Rye'?",
+            "options": ["J.D. Salinger", "Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck"],
+            "correct_option": 0
+        },
+        {
+            "question": "What is the chemical symbol for copper?",
+            "options": ["Cu", "Co", "Cp", "Cr"],
+            "correct_option": 0
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere by volume?",
+            "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+            "correct_option": 2
+        },
+        {
+            "question": "Who is known for the theory of special relativity?",
+            "options": ["Isaac Newton", "Albert Einstein", "Richard Feynman", "Niels Bohr"],
+            "correct_option": 1
+        }
+    ]
+}
