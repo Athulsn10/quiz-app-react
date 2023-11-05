@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Confetti from "react-confetti";
-import HTMLFlipBook from "react-pageflip";
+import { WhatsappShareButton, WhatsappIcon } from "react-share";
 
 function QuizApp() {
   const [quizData, setQuizData] = useState([]);
@@ -86,7 +86,9 @@ function QuizApp() {
           }}
         >
           <div className="mb-2" style={{ height: "90px" }}>
-            <h3 className="mb-2">Q. {quizData[currentQuestionIndex].question}</h3>
+            <h3 className="mb-2">
+              Q. {quizData[currentQuestionIndex].question}
+            </h3>
           </div>
           <hr />
           <ol type="a">
@@ -117,13 +119,13 @@ function QuizApp() {
               className="btn px-3 py-3 d-flex align-items-center"
               onClick={nextQuestion}
             >
-              <i
-                className="fa-solid fa-caret-right fs-4 pe-2"
-                style={{ color: "#000000" }}
-              ></i>
               {currentQuestionIndex < quizData.length - 1
                 ? "Next Question"
                 : "Finish Quiz"}
+              <i
+                className="fa-solid fa-circle-arrow-right fs-4 ps-2"
+                style={{ color: "#000000" }}
+              ></i>
             </button>
           </div>
           <p className="ms-3 fw-bold fs-4">
@@ -145,11 +147,17 @@ function QuizApp() {
             <div className="d-flex justify-content-center fs-4 fw-bold">
               <p>Your score: {correctAnswers} out of 20</p>
             </div>
-            <div className="d-flex justify-content-center">
-              <button className="btn px-3 py-3" onClick={restartQuiz}>
-                Restart Quiz
+            <div className="d-flex justify-content-center mb-3">
+              <button className="btn btn-danger px-3 py-3 d-flex align-items-center fs-4" onClick={restartQuiz}>
+                Restart Quiz <i className="ps-2 fs-5 fa-solid fa-rotate" style={{color: '#ffffff'}}></i>
               </button>
             </div>
+              <p>Share Your Score With Your Friends </p>
+             <div className="d-flex justify-content-center">
+                <WhatsappShareButton url={'https://quiz-app-react-red.vercel.app/'} title={`I Have Scored ${correctAnswers} Out Of 20 in Quiz App Created By Athul. Go On Have It A Try At : `} >
+                  <WhatsappIcon size={32} round={true} />
+                </WhatsappShareButton>
+             </div>
           </div>
           <Confetti
             width={window.innerWidth}
